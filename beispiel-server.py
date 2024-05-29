@@ -5,6 +5,8 @@ data structures and how to implement endpoint for a REST API with Flask.
 
 Requirements:
 * flask
+using Brain
+git ples update the current branch this is not funny anymore 
 """
 
 import uuid 
@@ -98,6 +100,9 @@ def add_new_entry(list_id):
     except Exception as e:
         return jsonify({"error entry could not be added": str(e)}), 400    
 
+@app.route('/todo-list/<list_id>/entry/<entry_id>', methods=['PATCH'])
+def update_entry(list_id, entry_id):
+//TODO
 
 # define endpoint for getting all lists
 @app.route('/todo-list', methods=['GET'])
