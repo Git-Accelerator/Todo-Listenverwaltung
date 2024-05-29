@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: Todo-Listen-Verwaltung
-  description: ""
+  description: "changed"
   contact:
     email: wichmann@bbs-os-brinkstr.de
   license:
